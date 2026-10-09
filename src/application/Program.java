@@ -1,35 +1,34 @@
 package application;
 import java.util.Scanner;
-import entities.Student;
+import entities.Employee;
 
 public class Program {
     public static void main(String[]args){
 
         Scanner sc = new Scanner(System.in);
-        Student student = new Student();
+        Employee employee = new Employee();
 
-        System.out.println("Enter the student name: ");
-        student.name = sc.nextLine();
+        System.out.println("Enter the Employee name: ");
+        employee.name = sc.nextLine();
 
-        System.out.println("Enter the first note: ");
-        student.n1 = sc.nextDouble();
+        System.out.println("Enter the gross salary: ");
+        employee.grossSalary = sc.nextDouble();
 
-        System.out.println("Enter the second note: ");
-        student.n2 = sc.nextDouble();
+        System.out.println("Enter the tax: ");
+        employee.tax = sc.nextDouble();
 
-        System.out.println("Enter the third note: ");
-        student.n3 = sc.nextDouble();
+        System.out.printf("Employee: %s, $ %.2f%n", employee.name, employee.netSalary());
 
-        System.out.printf("Final note: %.2f%n", student.finalGrade());
+        System.out.print("Which percentage to increase salary? ");
+        double percentage = sc.nextDouble();
 
-        if (student.isApproved()){
-            System.out.println("PASS");
-        } else {
-            System.out.println("FAILED");
-            System.out.printf("MISSING POINTS %.2f%n", student.missingPoints());
-        }
+        employee.increaseSalary(percentage);
 
+        System.out.printf("Updated data: %s, $ %.2f%n",
+                employee.name, employee.netSalary());
+        
         sc.close();
+
 
     }
 }

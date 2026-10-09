@@ -28,3 +28,16 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+# Java
+*.class
+**/out/
+**/build/
+**/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Operating systems
+.DS_Store
+Thumbs.db

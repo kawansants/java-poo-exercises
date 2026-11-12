@@ -1,20 +1,20 @@
-# Java OOP Exercises
+# Exercícios de Programação Orientada a Objetos em Java
 
-A collection of Java exercises created to practice object-oriented programming fundamentals.
+Repositório de exercícios práticos para consolidar fundamentos de programação orientada a objetos (POO) com Java.
 
-## Exercises
+## Exercícios
 
-| Exercise | Goal | Concepts |
+| Exercício | Objetivo | Conceitos |
 | --- | --- | --- |
-| Rectangle | Calculate area, perimeter, and diagonal | Classes, attributes, methods, return values |
-| Student | Calculate final grade and approval status | Conditionals, boolean methods, method reuse |
-| Employee | Calculate salary and apply percentage increases | Parameters, void methods, object state |
+| Rectangle | Calcular área, perímetro e diagonal de um retângulo | Classes, atributos, métodos e retornos |
+| Student | Calcular nota final e situação de aprovação | Condicionais, métodos booleanos e reutilização |
+| Employee | Calcular salário e aplicar aumentos percentuais | Parâmetros, métodos void e alteração de estado |
 
-## Technologies
-Java, Git, GitHub and IntelliJ IDEA.
+## Tecnologias
+Java, Git, GitHub e IntelliJ IDEA.
 
-## Purpose
-This is a learning repository, not a production application. Exercises are organized independently to make concepts easier to review.
+## Sobre o repositório
+Este é um repositório de aprendizagem, não uma aplicação de produção. Os exercícios são independentes e servem para praticar conceitos e acompanhar minha evolução.
 
-## Author
+## Autor
 [GitHub — kawansants](https://github.com/kawansants)
